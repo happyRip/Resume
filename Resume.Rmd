@@ -181,7 +181,7 @@ rMarkdown, Actions
 
 > *My personal resume*
 
-The document You are seeing now was created in *rMarkdown* and is converted to a pdf format continuously
+The document You are seeing now was created in *rMarkdown* and is converted to a pdf format automatically
 using *pandoc* and *GitHub Actions*.
 \ \
 :::
@@ -195,14 +195,13 @@ using *pandoc* and *GitHub Actions*.
 ::: {.col data-latex="{0.45\textwidth}"}
 ## Skills
 
-- Go *(tet, [Sciter,](https://sciter.com/) [Cobra](https://github.com/spf13/cobra), [Bubbletea,](https://github.com/charmbracelet/bubbletea) [go-chi](https://github.com/go-chi/chi), [go.uuid](https://github.com/satori/go.uuid))*
+- Go *(test, [Sciter,](https://sciter.com/) [Cobra](https://github.com/spf13/cobra), [Bubbletea,](https://github.com/charmbracelet/bubbletea) [go-chi](https://github.com/go-chi/chi), [go.uuid](https://github.com/satori/go.uuid))*
 - Python *(numpy, pandas, matplotlib)*
 - git, GitHub *(Actions)*, gerrit
-
 - UNIX, bash, vim, ssh, tmux
 - Docker *(docker-compose)*, Kubernetes
 - make, cMake
-- C/C++ *(std)*
+- C++ *(std)*
 - JavaScript *([certificate](https://www.freecodecamp.org/certification/happyrip/javascript-algorithms-and-data-structures))*,
 - (r)Markdown, XML, Jsons, Yaml
 \ \
