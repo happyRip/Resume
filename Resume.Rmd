@@ -1,0 +1,230 @@
+---
+geometry: "left=3cm,right=3cm,top=1.5cm,bottom=1.5cm"
+
+
+header-includes:
+    - '\defaultfontfeatures{Extension = .otf}'
+    - '\usepackage{fontawesome}'
+    - '\pagenumbering{gobble}'
+output:
+  pdf_document: 
+    extra_dependencies: ["marvosym"]
+    keep_tex: true
+    includes:
+      in_header: columns.tex
+    latex_engine: xelatex
+---
+
+:::::: {.cols data-latex=""}
+
+::: {.col data-latex="{0.4\textwidth}"}
+# John Smith
+
+:::
+
+::: {.col data-latex="{0.2\textwidth}"}
+\ 
+:::
+
+::: {.col data-latex="{0.35\textwidth}"}
+\flushright{\textbf{Devops developer}}
+:::
+
+::::::
+
+:::::: {.cols data-latex=""}
+
+::: {.col data-latex="{0.4\textwidth}"}
+\Telefon \ +48 687 587 747
+
+\faHome \ City, Region - Poland
+\ \
+:::
+
+::: {.col data-latex="{0.2\textwidth}"}
+\ 
+:::
+
+::: {.col data-latex="{0.4\textwidth}"}
+\Letter \ john.smith@gmail.com
+
+[\faGithub \ github.com/happyRip](https://github.com/happyRip){target="_blank"}
+\ \
+:::
+
+::::::
+
+---
+
+## Experience
+
+:::::: {.cols data-latex=""}
+
+::: {.col data-latex="{0.2\textwidth}"}
+*Sep 2021 - present*
+:::
+
+::: {.col data-latex="{0.05\textwidth}"}
+\ 
+:::
+
+::: {.col data-latex="{0.75\textwidth}"}
+### DevOps Working Student
+
+> *Nokia*
+
+I'm responsble for managing and hardening embedded linux systems using
+[the&nbsp;Yocto&nbsp;Project](https://www.yoctoproject.org/) stack.
+\ \
+:::
+
+::::::
+
+---
+
+## Education
+
+:::::: {.cols data-latex=""}
+
+::: {.col data-latex="{0.2\textwidth}"}
+2019 - present
+:::
+
+::: {.col data-latex="{0.05\textwidth}"}
+\ 
+:::
+
+::: {.col data-latex="{0.75\textwidth}"}
+### Electronics and Telecommunication
+
+> *Some University of Technology,*
+>
+> *Faculty of Microsystem Electronics and Photonics*
+\ \
+:::
+
+::::::
+
+---
+
+## Projects
+
+:::::: {.cols data-latex=""}
+
+::: {.col data-latex="{0.2\textwidth}"}
+2020 - present
+
+#### Technologies:
+
+Go *([Sciter](https://sciter.com/))*
+:::
+
+::: {.col data-latex="{0.05\textwidth}"}
+\ 
+:::
+
+::: {.col data-latex="{0.75\textwidth}"}
+### [\faGithub \ Box Tailor](https://github.com/happyRip/Box-Tailor-Go)
+
+> *Parametric box design*
+
+An app than can be used to create and export boxes based on product measurements given. The templates arose are then optimally fitted onto boards of given dimensions. This way the whole template can then be cut on a laser cutter or cnc plotter, allowing small businesses to have their own custom box solution.
+\ \
+:::
+
+::::::
+
+:::::: {.cols data-latex=""}
+
+::: {.col data-latex="{0.2\textwidth}"}
+2020, 2021
+
+#### Technologies:
+
+Go *([cobra](https://github.com/spf13/cobra), [bubbletea](https://github.com/charmbracelet/bubbletea))*,
+make
+:::
+
+::: {.col data-latex="{0.05\textwidth}"}
+\ 
+:::
+
+::: {.col data-latex="{0.75\textwidth}"}
+### [\faGithub \ Typer](https://github.com/maaslalani/typer)
+
+> *Typing test in your terminal*
+
+Typer is a terminal application that measures your typing speed.
+
+I've contributed to this open-source typing test implementing functionality such as command line interface, flags, piping, as well as bugfixes and more.
+\ \
+:::
+
+::::::
+
+:::::: {.cols data-latex=""}
+
+::: {.col data-latex="{0.2\textwidth}"}
+2021 - present
+
+#### Technologies:
+
+rMarkdown, Actions
+:::
+
+::: {.col data-latex="{0.05\textwidth}"}
+\ \
+:::
+
+::: {.col data-latex="{0.75\textwidth}"}
+### [\faGithub \ Resume](https://github.com/happyRip/Resume)
+
+> *My personal resume*
+
+The document You are seeing now was created in *rMarkdown* and is converted to a pdf format continuously
+using *pandoc* and *GitHub Actions*.
+\ \
+:::
+
+::::::
+
+---
+
+:::::: {.cols data-latex=""}
+
+::: {.col data-latex="{0.45\textwidth}"}
+## Skills
+
+- Go *(tet, [Sciter,](https://sciter.com/) [Cobra](https://github.com/spf13/cobra), [Bubbletea,](https://github.com/charmbracelet/bubbletea) [go-chi](https://github.com/go-chi/chi), [go.uuid](https://github.com/satori/go.uuid))*
+- Python *(numpy, pandas, matplotlib)*
+- git, GitHub *(Actions)*, gerrit
+
+- UNIX, bash, vim, ssh, tmux
+- Docker *(docker-compose)*, Kubernetes
+- make, cMake
+- C/C++ *(std)*
+- JavaScript *([certificate](https://www.freecodecamp.org/certification/happyrip/javascript-algorithms-and-data-structures))*,
+- (r)Markdown, XML, Jsons, Yaml
+\ \
+:::
+
+::: {.col data-latex="{0.15\textwidth}"}
+\ 
+:::
+
+::: {.col data-latex="{0.4\textwidth}"}
+## Languages
+
+- Polish - *native*
+- English - *professional*
+- German - *elementary*
+
+## Interests
+
+- [ComputerAided Design](https://en.wikipedia.org/wiki/Computer-aided_design)
+- Electronics and Tinkering
+- Graphic design, photography
+- [Ergonomic Mechanical Keyboards](https://imgur.com/a/UPuD6bf) 
+:::
+
+::::::
