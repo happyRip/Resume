@@ -1,7 +1,5 @@
 ---
 geometry: "left=3cm,right=3cm,top=1.5cm,bottom=1.5cm"
-
-
 header-includes:
     - '\defaultfontfeatures{Extension = .otf}'
     - '\usepackage{fontawesome}'
@@ -192,22 +190,20 @@ using *pandoc* and *GitHub Actions*.
 
 :::::: {.cols data-latex=""}
 
-::: {.col data-latex="{0.45\textwidth}"}
+::: {.col data-latex="{0.47\textwidth}"}
 ## Skills
 
 - Go *(test, [Sciter,](https://sciter.com/) [Cobra](https://github.com/spf13/cobra), [Bubbletea,](https://github.com/charmbracelet/bubbletea) [go-chi](https://github.com/go-chi/chi), [go.uuid](https://github.com/satori/go.uuid))*
 - Python *(numpy, pandas, matplotlib)*
 - git, GitHub *(Actions)*, gerrit
-- UNIX, bash, vim, ssh, tmux
-- Docker *(docker-compose)*, Kubernetes
-- make, cMake
-- C++ *(std)*
-- JavaScript *([certificate](https://www.freecodecamp.org/certification/happyrip/javascript-algorithms-and-data-structures))*,
+- UNIX, bash, vim, ssh, tmux, make, cMake
+- Docker, Kubernetes
 - (r)Markdown, XML, Jsons, Yaml
+- JavaScript *([certificate](https://www.freecodecamp.org/certification/happyrip/javascript-algorithms-and-data-structures))*, C++ *(std)*
 \ \
 :::
 
-::: {.col data-latex="{0.15\textwidth}"}
+::: {.col data-latex="{0.13\textwidth}"}
 \ 
 :::
 
@@ -223,7 +219,6 @@ using *pandoc* and *GitHub Actions*.
 - [ComputerAided Design](https://en.wikipedia.org/wiki/Computer-aided_design)
 - Electronics and Tinkering
 - Graphic design, photography
-- [Ergonomic Mechanical Keyboards](https://imgur.com/a/UPuD6bf) 
 :::
 
 ::::::
