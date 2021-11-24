@@ -73,6 +73,7 @@ output:
 
 I'm responsble for managing and hardening embedded linux systems using
 [the&nbsp;Yocto&nbsp;Project](https://www.yoctoproject.org/) stack.
+Here I've learned core Agile principles and common Jira workflow in practice.
 \ \
 :::
 
@@ -196,9 +197,9 @@ using *pandoc* and *GitHub Actions*.
 - Go *(test, [Sciter,](https://sciter.com/) [Cobra](https://github.com/spf13/cobra), [Bubbletea,](https://github.com/charmbracelet/bubbletea) [go-chi](https://github.com/go-chi/chi), [go.uuid](https://github.com/satori/go.uuid))*
 - Python *(numpy, pandas, matplotlib)*
 - git, GitHub *(Actions)*, gerrit
-- UNIX, bash, vim, ssh, tmux, make, cMake
+- UNIX, bash, vim, ssh, tmux, make
 - Docker, Kubernetes
-- (r)Markdown, XML, Jsons, Yaml
+- (r)Markdown, XML, Json, Yaml
 - JavaScript *([certificate](https://www.freecodecamp.org/certification/happyrip/javascript-algorithms-and-data-structures))*, C++ *(std)*
 \ \
 :::
