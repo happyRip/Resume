@@ -1,5 +1,4 @@
 ---
-geometry: "left=3cm,right=3cm,top=1.5cm,bottom=1.5cm"
 header-includes:
     - '\defaultfontfeatures{Extension = .otf}'
     - '\usepackage{fontawesome}'
