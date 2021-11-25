@@ -138,7 +138,7 @@ Go *([Sciter](https://sciter.com/))*
 :::
 ::::::
 
-An app than can be used to create and export boxes based on product measurements given. The templates arose are then optimally fitted onto boards of given dimensions. This way the whole template can then be cut on a laser cutter or cnc plotter, allowing small businesses to have their own custom box solution.
+\quad An app than can be used to create and export boxes based on product measurements given. The templates arose are then optimally fitted onto boards of given dimensions. This way the whole template can then be cut on a laser cutter or cnc plotter, allowing small businesses to have their own custom box solution.
 \ \
 :::::::::::::::
 
@@ -179,7 +179,7 @@ make
 
 Typer is a terminal application that measures your typing speed.
 
-I've contributed to this open-source typing test implementing functionality such as command line interface, flags, piping, as well as bugfixes and more.
+\quad I've contributed to this open-source typing test implementing functionality such as command line interface, flags, piping, as well as bugfixes and more.
 \ \
 :::::::::
 
@@ -215,7 +215,9 @@ rMarkdown, Actions
 > *\hfill My personal resume*
 :::
 
-The document You are seeing now was created in *rMarkdown* and is converted to a pdf format automatically
+::::::
+
+\quad The document You are seeing now was created in *rMarkdown* and is converted to a pdf format automatically
 using *pandoc* and *GitHub Actions*.
 \ \
 :::::::::
