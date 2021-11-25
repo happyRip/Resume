@@ -125,7 +125,7 @@ Go *([Sciter](https://sciter.com/))*
 ::::::::: {.col data-latex="{0.75\textwidth}"}
 
 :::::: {.cols data-latex=""}
-::: {.col data-latex="{0.50\textwidth}"}
+::: {.col data-latex="{0.4\textwidth}"}
 ### [\faGithub \ Box Tailor](https://github.com/happyRip/Box-Tailor-Go)
 :::
 
@@ -133,12 +133,12 @@ Go *([Sciter](https://sciter.com/))*
 \ 
 :::
 
-::: {.col data-latex="{0.45\textwidth}"}
+::: {.col data-latex="{0.55\textwidth}"}
 > *\hfill Parametric box design*
 :::
 ::::::
 
-\quad An app than can be used to create and export boxes based on product measurements given. The templates arose are then optimally fitted onto boards of given dimensions. This way the whole template can then be cut on a laser cutter or cnc plotter, allowing small businesses to have their own custom box solution.
+\qquad An app than can be used to create and export boxes based on product measurements given. The templates arose are then optimally fitted onto boards of given dimensions. This way the whole template can then be cut on a laser cutter or cnc plotter, allowing small businesses to have their own custom box solution.
 \ \
 :::::::::::::::
 
@@ -163,7 +163,7 @@ make
 
 :::::: {.cols data-latex=""}
 
-::: {.col data-latex="{0.5\textwidth}"}
+::: {.col data-latex="{0.4\textwidth}"}
 ### [\faGithub \ Typer](https://github.com/maaslalani/typer)
 :::
 
@@ -171,15 +171,15 @@ make
 \ 
 :::
 
-::: {.col data-latex="{0.45\textwidth}"}
+::: {.col data-latex="{0.55\textwidth}"}
 > *\hfill Typing test in your terminal*
 :::
 
 ::::::
 
-Typer is a terminal application that measures your typing speed.
+\qquad Typer is a terminal application that measures your typing speed.
 
-\quad I've contributed to this open-source typing test implementing functionality such as command line interface, flags, piping, as well as bugfixes and more.
+I've contributed to this open-source typing test implementing functionality such as command line interface, flags, piping, as well as bugfixes and more.
 \ \
 :::::::::
 
@@ -203,7 +203,7 @@ rMarkdown, Actions
 
 :::::: {.cols data-latex=""}
 
-::: {.col data-latex="{0.5\textwidth}"}
+::: {.col data-latex="{0.4\textwidth}"}
 ### [\faGithub \ Resume](https://github.com/happyRip/Resume)
 :::
 
@@ -211,13 +211,13 @@ rMarkdown, Actions
 \ 
 :::
 
-::: {.col data-latex="{0.45\textwidth}"}
+::: {.col data-latex="{0.55\textwidth}"}
 > *\hfill My personal resume*
 :::
 
 ::::::
 
-\quad The document You are seeing now was created in *rMarkdown* and is converted to a pdf format automatically
+\qquad The document You are seeing now was created in *rMarkdown* and is converted to a pdf format automatically
 using *pandoc* and *GitHub Actions*.
 \ \
 :::::::::
