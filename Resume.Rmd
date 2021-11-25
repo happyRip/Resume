@@ -108,22 +108,23 @@ Here I've learned core Agile principles and common Jira workflow in practice.
 
 ## Projects
 
-:::::: {.cols data-latex=""}
+:::::::::::: {.cols data-latex=""}
 
-::: {.col data-latex="{0.2\textwidth}"}
+::::::::: {.col data-latex="{0.2\textwidth}"}
 2020 - present
 
 #### Technologies:
 
 Go *([Sciter](https://sciter.com/))*
-:::
+:::::::::
 
-::: {.col data-latex="{0.05\textwidth}"}
+::::::::: {.col data-latex="{0.05\textwidth}"}
 \ 
-:::
+:::::::::
 
-::: {.col data-latex="{0.75\textwidth}"}
+::::::::: {.col data-latex="{0.75\textwidth}"}
 
+:::::: {.cols data-latex=""}
 ::: {.col data-latex="{0.50\textwidth}"}
 ### [\faGithub \ Box Tailor](https://github.com/happyRip/Box-Tailor-Go)
 :::
@@ -135,10 +136,11 @@ Go *([Sciter](https://sciter.com/))*
 ::: {.col data-latex="{0.45\textwidth}"}
 > *Parametric box design*
 :::
+::::::
 
 An app than can be used to create and export boxes based on product measurements given. The templates arose are then optimally fitted onto boards of given dimensions. This way the whole template can then be cut on a laser cutter or cnc plotter, allowing small businesses to have their own custom box solution.
 \ \
-:::
+:::::::::::::::
 
 ::::::
 
