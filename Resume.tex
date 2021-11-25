@@ -1,0 +1,459 @@
+\PassOptionsToPackage{unicode=true}{hyperref} % options for packages loaded elsewhere
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provides euro and other symbols
+\else % if luatex or xelatex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage[]{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\usepackage{hyperref}
+\hypersetup{
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage[left=3cm,right=3cm,top=1.5cm,bottom=1.5cm]{geometry}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+% set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+\newenvironment{cols}[1][]{}{}
+
+\newenvironment{col}[1]{\begin{minipage}{#1}\ignorespaces}{%
+\end{minipage}
+\ifhmode\unskip\fi
+\aftergroup\useignorespacesandallpars}
+
+\def\useignorespacesandallpars#1\ignorespaces\fi{%
+#1\fi\ignorespacesandallpars}
+
+\makeatletter
+\def\ignorespacesandallpars{%
+  \@ifnextchar\par
+    {\expandafter\ignorespacesandallpars\@gobble}%
+    {}%
+}
+\makeatother
+\defaultfontfeatures{Extension = .otf}
+\usepackage{fontawesome}
+\pagenumbering{gobble}
+\usepackage{marvosym}
+
+\author{}
+\date{\vspace{-2.5em}}
+
+\begin{document}
+
+\begin{cols}
+
+\begin{col}{0.4\textwidth}
+
+\hypertarget{aleksander-borowski}{%
+\section{Aleksander Borowski}\label{aleksander-borowski}}
+
+\end{col}
+
+\begin{col}{0.2\textwidth}
+
+~
+
+\end{col}
+
+\begin{col}{0.35\textwidth}
+
+\flushright{\textbf{Devops developer}}
+
+\end{col}
+
+\end{cols}
+
+\begin{cols}
+
+\begin{col}{0.4\textwidth}
+
+\Telefon ~+48 687 587 747
+
+\faHome ~City, Region - Poland ~\\
+
+\end{col}
+
+\begin{col}{0.2\textwidth}
+
+~
+
+\end{col}
+
+\begin{col}{0.4\textwidth}
+
+\Letter ~
+\href{mailto:aleksander.borowski.01@gmail.com}{\nolinkurl{aleksander.borowski.01@gmail.com}}
+
+\href{https://github.com/happyRip}{\faGithub ~github.com/happyRip} ~\\
+
+\end{col}
+
+\end{cols}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{experience}{%
+\subsection{Experience}\label{experience}}
+
+\begin{cols}
+
+\begin{col}{0.2\textwidth}
+
+\emph{Sep 2021 - present}
+
+\end{col}
+
+\begin{col}{0.05\textwidth}
+
+~
+
+\end{col}
+
+\begin{col}{0.75\textwidth}
+
+\hypertarget{devops-working-student}{%
+\subsubsection{DevOps Working Student}\label{devops-working-student}}
+
+\begin{quote}
+\emph{Nokia}
+\end{quote}
+
+I'm responsble for managing and hardening embedded linux systems using
+\href{https://www.yoctoproject.org/}{the~Yocto~Project} stack. Here I've
+learned core Agile principles and common Jira workflow in practice. ~\\
+
+\end{col}
+
+\end{cols}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{education}{%
+\subsection{Education}\label{education}}
+
+\begin{cols}
+
+\begin{col}{0.2\textwidth}
+
+2019 - present
+
+\end{col}
+
+\begin{col}{0.05\textwidth}
+
+~
+
+\end{col}
+
+\begin{col}{0.75\textwidth}
+
+\hypertarget{electronics-and-telecommunication}{%
+\subsubsection{Electronics and
+Telecommunication}\label{electronics-and-telecommunication}}
+
+\begin{quote}
+\emph{Some University of Technology,}
+
+\emph{Faculty of Microsystem Electronics and Photonics} ~\\
+\end{quote}
+
+\end{col}
+
+\end{cols}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{projects}{%
+\subsection{Projects}\label{projects}}
+
+\begin{cols}
+
+\begin{col}{0.2\textwidth}
+
+2020 - present
+
+\hypertarget{technologies}{%
+\paragraph{Technologies:}\label{technologies}}
+
+Go \emph{(\href{https://sciter.com/}{Sciter})}
+
+\end{col}
+
+\begin{col}{0.05\textwidth}
+
+~
+
+\end{col}
+
+\begin{col}{0.75\textwidth}
+
+\begin{cols}
+
+\begin{col}{0.50\textwidth}
+
+\hypertarget{box-tailor}{%
+\subsubsection{\texorpdfstring{\href{https://github.com/happyRip/Box-Tailor-Go}{\faGithub ~Box
+Tailor}}{~Box Tailor}}\label{box-tailor}}
+
+\end{col}
+
+\begin{col}{0.05\textwidth}
+
+~
+
+\end{col}
+
+\begin{col}{0.45\textwidth}
+
+\begin{quote}
+\emph{\hfill Parametric box design}
+\end{quote}
+
+\end{col}
+
+\end{cols}
+
+\quad An app than can be used to create and export boxes based on
+product measurements given. The templates arose are then optimally
+fitted onto boards of given dimensions. This way the whole template can
+then be cut on a laser cutter or cnc plotter, allowing small businesses
+to have their own custom box solution. ~\\
+
+\end{col}
+
+\end{cols}
+
+\begin{cols}
+
+\begin{col}{0.2\textwidth}
+
+2020, 2021
+
+\hypertarget{technologies-1}{%
+\paragraph{Technologies:}\label{technologies-1}}
+
+Go \emph{(\href{https://github.com/spf13/cobra}{cobra},
+\href{https://github.com/charmbracelet/bubbletea}{bubbletea})}, make
+
+\end{col}
+
+\begin{col}{0.05\textwidth}
+
+~
+
+\end{col}
+
+\begin{col}{0.75\textwidth}
+
+\begin{cols}
+
+\begin{col}{0.5\textwidth}
+
+\hypertarget{typer}{%
+\subsubsection{\texorpdfstring{\href{https://github.com/maaslalani/typer}{\faGithub ~Typer}}{~Typer}}\label{typer}}
+
+\end{col}
+
+\begin{col}{0.05\textwidth}
+
+~
+
+\end{col}
+
+\begin{col}{0.45\textwidth}
+
+\begin{quote}
+\emph{\hfill Typing test in your terminal}
+\end{quote}
+
+\end{col}
+
+\end{cols}
+
+Typer is a terminal application that measures your typing speed.
+
+\quad I've contributed to this open-source typing test implementing
+functionality such as command line interface, flags, piping, as well as
+bugfixes and more. ~\\
+
+\end{col}
+
+\end{cols}
+
+\begin{cols}
+
+\begin{col}{0.2\textwidth}
+
+2021 - present
+
+\hypertarget{technologies-2}{%
+\paragraph{Technologies:}\label{technologies-2}}
+
+rMarkdown, Actions
+
+\end{col}
+
+\begin{col}{0.05\textwidth}
+
+~\\
+
+\end{col}
+
+\begin{col}{0.75\textwidth}
+
+\begin{cols}
+
+\begin{col}{0.5\textwidth}
+
+\hypertarget{resume}{%
+\subsubsection{\texorpdfstring{\href{https://github.com/happyRip/Resume}{\faGithub ~Resume}}{~Resume}}\label{resume}}
+
+\end{col}
+
+\begin{col}{0.05\textwidth}
+
+~
+
+\end{col}
+
+\begin{col}{0.45\textwidth}
+
+\begin{quote}
+\emph{\hfill My personal resume}
+\end{quote}
+
+\end{col}
+
+\end{cols}
+
+\quad The document You are seeing now was created in \emph{rMarkdown}
+and is converted to a pdf format automatically using \emph{pandoc} and
+\emph{GitHub Actions}. ~\\
+
+\end{col}
+
+\end{cols}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\begin{cols}
+
+\begin{col}{0.47\textwidth}
+
+\hypertarget{skills}{%
+\subsection{Skills}\label{skills}}
+
+\begin{itemize}
+\tightlist
+\item
+  Go \emph{(test, \href{https://sciter.com/}{Sciter,}
+  \href{https://github.com/spf13/cobra}{Cobra},
+  \href{https://github.com/charmbracelet/bubbletea}{Bubbletea,}
+  \href{https://github.com/go-chi/chi}{go-chi},
+  \href{https://github.com/satori/go.uuid}{go.uuid})}
+\item
+  Python \emph{(numpy, pandas, matplotlib)}
+\item
+  git, GitHub \emph{(Actions)}, gerrit
+\item
+  UNIX, bash, vim, ssh, tmux, make
+\item
+  Docker, Kubernetes
+\item
+  (r)Markdown, XML, Json, Yaml
+\item
+  JavaScript
+  \emph{(\href{https://www.freecodecamp.org/certification/happyrip/javascript-algorithms-and-data-structures}{certificate})},
+  C++ \emph{(std)} ~\\
+\end{itemize}
+
+\end{col}
+
+\begin{col}{0.13\textwidth}
+
+~
+
+\end{col}
+
+\begin{col}{0.4\textwidth}
+
+\hypertarget{languages}{%
+\subsection{Languages}\label{languages}}
+
+\begin{itemize}
+\tightlist
+\item
+  Polish - \emph{native}
+\item
+  English - \emph{professional}
+\item
+  German - \emph{elementary}
+\end{itemize}
+
+\hypertarget{interests}{%
+\subsection{Interests}\label{interests}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://en.wikipedia.org/wiki/Computer-aided_design}{ComputerAided
+  Design}
+\item
+  Electronics and Tinkering
+\item
+  Graphic design, photography
+\end{itemize}
+
+\end{col}
+
+\end{cols}
+
+\end{document}
