@@ -17,18 +17,8 @@ jobs:
         with:
           input_file: Resume.Rmd
           output_format: pdf_document
-      - name: Commit files
-        run: |
-          git config --local core.autocrlf false
-          git config --local user.email "${{ github.actor }}@users.noreply.github.com"
-          git config --local user.name "${{ github.actor }}"
-          git add *.pdf && git add --renormalize *.pdf
-          git pull origin ${{ github.head_ref }} --autostash --rebase -X ours
-          git commit --allow-empty -am "AUTO-GH ACTION: ${{ github.workflow }}"
-          NO_PAGER=1 git --no-pager diff HEAD^
-      - name: Push changes
-        uses: ad-m/github-push-action@master
+      - name: Upload artifact
+        uses: actions/upload-artifact@v2
         with:
-          branch: layout-improvements-test 
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          
+          name: Resume
+          path: Resume.pdf
