@@ -134,7 +134,7 @@ Go *([Sciter](https://sciter.com/))*
 :::
 
 ::: {.col data-latex="{0.45\textwidth}"}
-> *Parametric box design*
+> *\hfill Parametric box design*
 :::
 ::::::
 
@@ -144,59 +144,83 @@ An app than can be used to create and export boxes based on product measurements
 
 ::::::
 
-:::::: {.cols data-latex=""}
+:::::::::::: {.cols data-latex=""}
 
-::: {.col data-latex="{0.2\textwidth}"}
+::::::::: {.col data-latex="{0.2\textwidth}"}
 2020, 2021
 
 #### Technologies:
 
 Go *([cobra](https://github.com/spf13/cobra), [bubbletea](https://github.com/charmbracelet/bubbletea))*,
 make
+:::::::::
+
+::::::::: {.col data-latex="{0.05\textwidth}"}
+\ 
+:::::::::
+
+::::::::: {.col data-latex="{0.75\textwidth}"}
+
+:::::: {.cols data-latex=""}
+
+::: {.col data-latex="{0.5\textwidth}"}
+### [\faGithub \ Typer](https://github.com/maaslalani/typer)
 :::
 
 ::: {.col data-latex="{0.05\textwidth}"}
 \ 
 :::
 
-::: {.col data-latex="{0.75\textwidth}"}
-### [\faGithub \ Typer](https://github.com/maaslalani/typer)
+::: {.col data-latex="{0.45\textwidth}"}
+> *\hfill Typing test in your terminal*
+:::
 
-> *Typing test in your terminal*
+::::::
 
 Typer is a terminal application that measures your typing speed.
 
 I've contributed to this open-source typing test implementing functionality such as command line interface, flags, piping, as well as bugfixes and more.
 \ \
-:::
+:::::::::
 
-::::::
+::::::::::::
 
-:::::: {.cols data-latex=""}
+:::::::::::: {.cols data-latex=""}
 
-::: {.col data-latex="{0.2\textwidth}"}
+::::::::: {.col data-latex="{0.2\textwidth}"}
 2021 - present
 
 #### Technologies:
 
 rMarkdown, Actions
+:::::::::
+
+::::::::: {.col data-latex="{0.05\textwidth}"}
+\ \
+:::::::::
+
+::::::::: {.col data-latex="{0.75\textwidth}"}
+
+:::::: {.cols data-latex=""}
+
+::: {.col data-latex="{0.5\textwidth}"}
+### [\faGithub \ Resume](https://github.com/happyRip/Resume)
 :::
 
 ::: {.col data-latex="{0.05\textwidth}"}
-\ \
+\ 
 :::
 
-::: {.col data-latex="{0.75\textwidth}"}
-### [\faGithub \ Resume](https://github.com/happyRip/Resume)
-
-> *My personal resume*
+::: {.col data-latex="{0.45\textwidth}"}
+> *\hfill My personal resume*
+:::
 
 The document You are seeing now was created in *rMarkdown* and is converted to a pdf format automatically
 using *pandoc* and *GitHub Actions*.
 \ \
-:::
+:::::::::
 
-::::::
+::::::::::::
 
 ---
 
