@@ -1,4 +1,4 @@
-name: Render resume
+name: Render
 on: 
   push:
     paths:
@@ -6,7 +6,8 @@ on:
       - 'columns.tex'
       - '.github/workflows/*'
 jobs:
-  render-document:
+  render:
+    name: Render document
     runs-on: ubuntu-latest
     steps:
       - name: Set up Git repository
