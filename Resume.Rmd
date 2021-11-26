@@ -32,9 +32,9 @@ output:
 :::::: {.cols data-latex=""}
 
 ::: {.col data-latex="{0.4\textwidth}"}
-\Telefon \ +48 687 587 747
+\Telefon \ \emph{Given upon request}
 
-\faHome \ City, Region - Poland
+\faHome \ Wrocław, Dolnośląskie - Poland
 \ \
 :::
 
@@ -68,7 +68,7 @@ output:
 ::: {.col data-latex="{0.75\textwidth}"}
 ### DevOps Working Student
 
-> *Nokia*
+> *Nokia Wrocław*
 
 I'm responsble for managing and hardening embedded linux systems using
 [the&nbsp;Yocto&nbsp;Project](https://www.yoctoproject.org/) stack.
@@ -95,7 +95,7 @@ Here I've learned core Agile principles and common Jira workflow in practice.
 ::: {.col data-latex="{0.75\textwidth}"}
 ### Electronics and Telecommunication
 
-> *Some University of Technology,*
+> *Wrocław University of Technology,*
 >
 > *Faculty of Microsystem Electronics and Photonics*
 \ \
