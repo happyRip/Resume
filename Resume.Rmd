@@ -23,7 +23,7 @@ output:
 \ 
 :::
 
-::: {.col data-latex="{0.35\textwidth}"}
+::: {.col data-latex="{0.4\textwidth}"}
 \flushright{\textbf{Devops developer}}
 :::
 
@@ -133,7 +133,7 @@ Go *([Sciter](https://sciter.com/))*
 :::
 
 ::: {.col data-latex="{0.55\textwidth}"}
-> *\hfill Parametric box design*
+> *Parametric box design*
 :::
 ::::::
 
@@ -171,7 +171,7 @@ make
 :::
 
 ::: {.col data-latex="{0.55\textwidth}"}
-> *\hfill Typing test in your terminal*
+> *Typing test in your terminal*
 :::
 
 ::::::
@@ -211,7 +211,7 @@ rMarkdown, Actions
 :::
 
 ::: {.col data-latex="{0.55\textwidth}"}
-> *\hfill My personal resume*
+> *My personal resume*
 :::
 
 ::::::
