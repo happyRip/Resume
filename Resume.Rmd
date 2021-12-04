@@ -43,7 +43,7 @@ output:
 :::
 
 ::: {.col data-latex="{0.4\textwidth}"}
-\Letter \  aleksander.borowski.01@gmail.com
+\Letter \ aleksander.borowski.01@gmail.com
 
 [\faGithub \ github.com/happyRip](https://github.com/happyRip){target="_blank"}
 \ \
