@@ -253,7 +253,7 @@ using *pandoc* and *GitHub Actions*.
 
 ## Interests
 
-- [ComputerAided Design](https://en.wikipedia.org/wiki/Computer-aided_design)
+- [Computer Aided Design](https://en.wikipedia.org/wiki/Computer-aided_design)
 - Electronics and Tinkering
 - Graphic design, photography
 :::
