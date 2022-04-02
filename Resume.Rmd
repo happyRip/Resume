@@ -247,9 +247,9 @@ using *pandoc* and *GitHub Actions*.
 ::: {.col data-latex="{0.4\textwidth}"}
 ## Languages
 
-- Polish - *native*
-- English - *professional*
-- German - *elementary*
+- Polish – *native*
+- English – *professional*
+- German – *elementary*
 
 ## Interests
 
