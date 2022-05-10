@@ -40,7 +40,7 @@ output:
 :::
 
 ::: {.col data-latex="{0.24\textwidth}"}
-[\faLinkedin \ LinkedIn](https://www.linkedin.com/in/aleksander-borowski)
+[\faLinkedin \ Linkedin](https://www.linkedin.com/in/aleksander-borowski)
 
 [\Mundus \ Exercism](https://exercism.org/profiles/happyRip)
 \ \
