@@ -3,7 +3,7 @@ header-includes:
     - '\defaultfontfeatures{Extension = .otf}'
     - '\usepackage{fontawesome}'
     - '\pagenumbering{gobble}'
-geometry: margin=2cm
+geometry: margin=2.5cm
 output:
   pdf_document: 
     extra_dependencies: ["marvosym"]
@@ -134,12 +134,13 @@ Here I've learned core Agile principles and common Jira workflow in practice.
 :::::::::::: {.cols data-latex=""}
 
 ::::::::: {.col data-latex="{0.2\textwidth}"}
-2020, 2021
+2022
 
 #### Technologies:
 
-Go *([cobra](https://github.com/spf13/cobra), [bubbletea](https://github.com/charmbracelet/bubbletea))*,
-make
+Elixir *([Phoenix](https://www.phoenixframework.org/))*,
+[Docker](https://www.docker.com/),
+[GitHub Actions](https://github.com/features/actions)
 :::::::::
 
 ::::::::: {.col data-latex="{0.05\textwidth}"}
@@ -151,7 +152,7 @@ make
 :::::: {.cols data-latex=""}
 
 ::: {.col data-latex="{0.4\textwidth}"}
-### [\faGithub \ Typer](https://github.com/maaslalani/typer)
+### [\faGithub \ Ephemeral Chat](https://github.com/happyRip/Ephemeral-Chat)
 :::
 
 ::: {.col data-latex="{0.05\textwidth}"}
@@ -159,15 +160,15 @@ make
 :::
 
 ::: {.col data-latex="{0.55\textwidth}"}
-> *Typing test in your terminal*
+> *try me at [\Mundus chat.happy.rip](https://chat.happy.rip/)*
 :::
 
 ::::::
 
-\qquad Typer is a terminal application that measures your typing speed.
-
-I've contributed to this open-source typing test implementing functionality such as command line interface, flags, piping, as well as bugfixes and more.
-\ \
+\qquad Creating this website I wanted to make a chat application that would be quick to start using.
+I wanted to introduce a Continuous Deployment workflow which I did utilizing GitHub Actions and Docker.
+To create a live-chat experience I used Phoenix framework with LiveView behaviour.
+/ /
 :::::::::
 
 ::::::::::::
@@ -175,7 +176,7 @@ I've contributed to this open-source typing test implementing functionality such
 :::::::::::: {.cols data-latex=""}
 
 ::::::::: {.col data-latex="{0.2\textwidth}"}
-2020 - present
+2020 - 2022
 
 #### Technologies:
 
@@ -216,11 +217,11 @@ Go *([Sciter](https://sciter.com/))*
 ## Skills
 
 - Go *(test, [Sciter,](https://sciter.com/) [Cobra](https://github.com/spf13/cobra), [Bubbletea,](https://github.com/charmbracelet/bubbletea) [go-chi](https://github.com/go-chi/chi), [go.uuid](https://github.com/satori/go.uuid))*
+- Elixir *([Phoenix](https://www.phoenixframework.org/))*
 - Python *(numpy, pandas, matplotlib)*
-- git, GitHub *(Actions)*, gerrit
+- [Jenkins](https://www.jenkins.io/), [Groovy](https://groovy-lang.org/)
 - UNIX, bash, vim, ssh, tmux, make
-- Docker, Kubernetes
-- (r)Markdown, XML, Json, Yaml
+- [Docker](https://www.docker.com/), [GitHub Actions](https://github.com/features/actions)
 - JavaScript *([certificate](https://www.freecodecamp.org/certification/happyrip/javascript-algorithms-and-data-structures))*, C++ *(std)*
 \ \
 :::
