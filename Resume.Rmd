@@ -43,6 +43,7 @@ output:
 [\faLinkedin \ LinkedIn](https://www.linkedin.com/in/aleksander-borowski)
 
 [\Mundus \ Exercism](https://exercism.org/profiles/happyRip)
+\ \
 :::
 
 ::: {.col data-latex="{0.33\textwidth}"}
