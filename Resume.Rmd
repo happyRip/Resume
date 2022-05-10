@@ -3,7 +3,7 @@ header-includes:
     - '\defaultfontfeatures{Extension = .otf}'
     - '\usepackage{fontawesome}'
     - '\pagenumbering{gobble}'
-geometry: margin=2.5cm
+geometry: margin=2cm
 output:
   pdf_document: 
     extra_dependencies: ["marvosym"]
@@ -32,18 +32,20 @@ output:
 
 :::::: {.cols data-latex=""}
 
-::: {.col data-latex="{0.4\textwidth}"}
+::: {.col data-latex="{0.35\textwidth}"}
 \Telefon \ \emph{Given upon request}
 
 \faHome \ Wrocław, Dolnośląskie - Poland
 \ \
 :::
 
-::: {.col data-latex="{0.2\textwidth}"}
-\ 
+::: {.col data-latex="{0.3\textwidth}"}
+\faLinkedin [LinkedIn](https://www.linkedin.com/in/aleksander-borowski/)
+
+\Mundus [Exercism](https://exercism.org/profiles/happyRip)
 :::
 
-::: {.col data-latex="{0.4\textwidth}"}
+::: {.col data-latex="{0.35\textwidth}"}
 \Letter \ aleksander.borowski.01@gmail.com
 
 [\faGithub \ github.com/happyRip](https://github.com/happyRip){target="_blank"}
@@ -138,9 +140,9 @@ Here I've learned core Agile principles and common Jira workflow in practice.
 
 #### Technologies:
 
-Elixir *([Phoenix](https://www.phoenixframework.org/))*,
+Elixir&nbsp;*([Phoenix](https://www.phoenixframework.org/))*,
 [Docker](https://www.docker.com/),
-[GitHub Actions](https://github.com/features/actions)
+[Actions](https://github.com/features/actions)
 :::::::::
 
 ::::::::: {.col data-latex="{0.05\textwidth}"}
@@ -160,15 +162,16 @@ Elixir *([Phoenix](https://www.phoenixframework.org/))*,
 :::
 
 ::: {.col data-latex="{0.55\textwidth}"}
-> *try me at [\Mundus chat.happy.rip](https://chat.happy.rip/)*
+> *try me at [chat.happy.rip](https://chat.happy.rip/)*
 :::
 
 ::::::
 
-\qquad Creating this website I wanted to make a chat application that would be quick to start using.
-I wanted to introduce a Continuous Deployment workflow which I did utilizing GitHub Actions and Docker.
-To create a live-chat experience I used Phoenix framework with LiveView behaviour.
-/ /
+\qquad Creating this website I wanted to make a chat application in which users cold start communicating immediately.
+To chat with someone simply create a random room and send the link to your recipient.
+To develop the app quickly I introduced a Continuous Deployment workflow utilizing Docker and GitHub Actions.
+The live-chat experience was achieved using Phoenix framework with LiveView behaviour.
+\ \
 :::::::::
 
 ::::::::::::
@@ -216,7 +219,7 @@ Go *([Sciter](https://sciter.com/))*
 ::: {.col data-latex="{0.47\textwidth}"}
 ## Skills
 
-- Go *(test, [Sciter,](https://sciter.com/) [Cobra](https://github.com/spf13/cobra), [Bubbletea,](https://github.com/charmbracelet/bubbletea) [go-chi](https://github.com/go-chi/chi), [go.uuid](https://github.com/satori/go.uuid))*
+- Go *(test, [Sciter,](https://sciter.com/) [Cobra](https://github.com/spf13/cobra), [Bubbletea,](https://github.com/charmbracelet/bubbletea) [go-chi](https://github.com/go-chi/chi))*
 - Elixir *([Phoenix](https://www.phoenixframework.org/))*
 - Python *(numpy, pandas, matplotlib)*
 - [Jenkins](https://www.jenkins.io/), [Groovy](https://groovy-lang.org/)
@@ -235,7 +238,6 @@ Go *([Sciter](https://sciter.com/))*
 
 - Polish – *native*
 - English – *professional*
-- German – *elementary*
 
 ## Interests
 
