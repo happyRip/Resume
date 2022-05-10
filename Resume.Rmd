@@ -141,7 +141,7 @@ Here I've learned core Agile principles and common Jira workflow in practice.
 
 #### Technologies:
 
-Elixir *([Phoenix](https://www.phoenixframework.org/))*,\hfill \ 
+Elixir *([Phoenix](https://www.phoenixframework.org/))*,\hfill \ \
 [Docker](https://www.docker.com/),
 [Actions](https://github.com/features/actions)
 :::::::::
