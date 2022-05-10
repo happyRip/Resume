@@ -74,7 +74,7 @@ output:
 
 > *Nokia Wrocław*
 
-I'm part of an international SCM team mainly working with automation and cloud solutions.
+I'm a part of an international SCM team mainly working with automation and cloud solutions.
 My duties consist of [Jenkins](https://www.jenkins.io) and [OpenStack](https://www.openstack.org/)
 management as well as writing [Groovy](https://groovy-lang.org/) and bash scripts.
 \ \
@@ -97,7 +97,7 @@ management as well as writing [Groovy](https://groovy-lang.org/) and bash script
 
 > *Nokia Wrocław*
 
-I'm responsble for managing and hardening embedded linux systems using
+I was responsble for managing and hardening embedded linux systems using
 [the&nbsp;Yocto&nbsp;Project](https://www.yoctoproject.org/) stack.
 Here I've learned core Agile principles and common Jira workflow in practice.
 \ \
@@ -168,7 +168,7 @@ Elixir *([Phoenix](https://www.phoenixframework.org/))*,\hfill \
 
 ::::::
 
-\qquad Creating this website I wanted to make a chat application in which users cold start communicating immediately.
+\qquad Creating this website I wanted to make a chat application in which users could start communicating immediately.
 To chat with someone simply create a random room and send the link to your recipient.
 To develop the app quickly I introduced a Continuous Deployment workflow utilizing Docker and GitHub Actions.
 The live-chat experience was achieved using Phoenix framework with LiveView behaviour.
