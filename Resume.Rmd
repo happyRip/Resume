@@ -3,6 +3,7 @@ header-includes:
     - '\defaultfontfeatures{Extension = .otf}'
     - '\usepackage{fontawesome}'
     - '\pagenumbering{gobble}'
+geometry: margin=2cm
 output:
   pdf_document: 
     extra_dependencies: ["marvosym"]
@@ -58,7 +59,30 @@ output:
 :::::: {.cols data-latex=""}
 
 ::: {.col data-latex="{0.2\textwidth}"}
-*Sep 2021 - present*
+*Feb 2022 - present*
+:::
+
+::: {.col data-latex="{0.05\textwidth}"}
+\ 
+:::
+
+::: {.col data-latex="{0.75\textwidth}"}
+### DevOps Working Student
+
+> *Nokia Wrocław*
+
+I'm part of an international SCM team mainly working with automation and cloud solutions.
+My duties consist of [Jenkins](https://www.jenkins.io) and [OpenStack](https://www.openstack.org/)
+management as well as writing [Groovy](https://groovy-lang.org/) and bash scripts.
+\ \
+:::
+
+::::::
+
+:::::: {.cols data-latex=""}
+
+::: {.col data-latex="{0.2\textwidth}"}
+*Sep 2021 - Jan 2022*
 :::
 
 ::: {.col data-latex="{0.05\textwidth}"}
@@ -139,9 +163,7 @@ Go *([Sciter](https://sciter.com/))*
 
 \qquad An app than can be used to create and export boxes based on product measurements given. The templates arose are then optimally fitted onto boards of given dimensions. This way the whole template can then be cut on a laser cutter or cnc plotter, allowing small businesses to have their own custom box solution.
 \ \
-:::::::::::::::
-
-::::::
+::::::::::::
 
 :::::::::::: {.cols data-latex=""}
 
@@ -179,45 +201,6 @@ make
 \qquad Typer is a terminal application that measures your typing speed.
 
 I've contributed to this open-source typing test implementing functionality such as command line interface, flags, piping, as well as bugfixes and more.
-\ \
-:::::::::
-
-::::::::::::
-
-:::::::::::: {.cols data-latex=""}
-
-::::::::: {.col data-latex="{0.2\textwidth}"}
-2021 - present
-
-#### Technologies:
-
-rMarkdown, Actions
-:::::::::
-
-::::::::: {.col data-latex="{0.05\textwidth}"}
-\ \
-:::::::::
-
-::::::::: {.col data-latex="{0.75\textwidth}"}
-
-:::::: {.cols data-latex=""}
-
-::: {.col data-latex="{0.4\textwidth}"}
-### [\faGithub \ Resume](https://github.com/happyRip/Resume)
-:::
-
-::: {.col data-latex="{0.05\textwidth}"}
-\ 
-:::
-
-::: {.col data-latex="{0.55\textwidth}"}
-> *My personal resume*
-:::
-
-::::::
-
-\qquad The document You are seeing now was created in *rMarkdown* and is converted to a pdf format automatically
-using *pandoc* and *GitHub Actions*.
 \ \
 :::::::::
 
