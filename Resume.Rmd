@@ -3,6 +3,7 @@ header-includes:
     - '\defaultfontfeatures{Extension = .otf}'
     - '\usepackage{fontawesome}'
     - '\pagenumbering{gobble}'
+geometry: margin=2cm
 output:
   pdf_document: 
     extra_dependencies: ["marvosym"]
@@ -31,18 +32,21 @@ output:
 
 :::::: {.cols data-latex=""}
 
-::: {.col data-latex="{0.4\textwidth}"}
+::: {.col data-latex="{0.42\textwidth}"}
 \Telefon \ \emph{Given upon request}
 
 \faHome \ Wrocław, Dolnośląskie - Poland
 \ \
 :::
 
-::: {.col data-latex="{0.2\textwidth}"}
-\ 
+::: {.col data-latex="{0.24\textwidth}"}
+[\faLinkedin \ LinkedIn](https://www.linkedin.com/in/aleksander-borowski)
+
+[\Mundus \ Exercism](https://exercism.org/profiles/happyRip)
+\ \
 :::
 
-::: {.col data-latex="{0.4\textwidth}"}
+::: {.col data-latex="{0.33\textwidth}"}
 \Letter \ aleksander.borowski.01@gmail.com
 
 [\faGithub \ github.com/happyRip](https://github.com/happyRip){target="_blank"}
@@ -58,7 +62,30 @@ output:
 :::::: {.cols data-latex=""}
 
 ::: {.col data-latex="{0.2\textwidth}"}
-*Sep 2021 - present*
+*Feb 2022 - present*
+:::
+
+::: {.col data-latex="{0.05\textwidth}"}
+\ 
+:::
+
+::: {.col data-latex="{0.75\textwidth}"}
+### DevOps Working Student
+
+> *Nokia Wrocław*
+
+I'm part of an international SCM team mainly working with automation and cloud solutions.
+My duties consist of [Jenkins](https://www.jenkins.io) and [OpenStack](https://www.openstack.org/)
+management as well as writing [Groovy](https://groovy-lang.org/) and bash scripts.
+\ \
+:::
+
+::::::
+
+:::::: {.cols data-latex=""}
+
+::: {.col data-latex="{0.2\textwidth}"}
+*Sep 2021 - Jan 2022*
 :::
 
 ::: {.col data-latex="{0.05\textwidth}"}
@@ -110,7 +137,50 @@ Here I've learned core Agile principles and common Jira workflow in practice.
 :::::::::::: {.cols data-latex=""}
 
 ::::::::: {.col data-latex="{0.2\textwidth}"}
-2020 - present
+2022
+
+#### Technologies:
+
+Elixir *([Phoenix](https://www.phoenixframework.org/))*,\hfill \ 
+[Docker](https://www.docker.com/),
+[Actions](https://github.com/features/actions)
+:::::::::
+
+::::::::: {.col data-latex="{0.05\textwidth}"}
+\ 
+:::::::::
+
+::::::::: {.col data-latex="{0.75\textwidth}"}
+
+:::::: {.cols data-latex=""}
+
+::: {.col data-latex="{0.4\textwidth}"}
+### [\faGithub \ Ephemeral Chat](https://github.com/happyRip/Ephemeral-Chat)
+:::
+
+::: {.col data-latex="{0.05\textwidth}"}
+\ 
+:::
+
+::: {.col data-latex="{0.55\textwidth}"}
+> *try me at [chat.happy.rip](https://chat.happy.rip/)*
+:::
+
+::::::
+
+\qquad Creating this website I wanted to make a chat application in which users cold start communicating immediately.
+To chat with someone simply create a random room and send the link to your recipient.
+To develop the app quickly I introduced a Continuous Deployment workflow utilizing Docker and GitHub Actions.
+The live-chat experience was achieved using Phoenix framework with LiveView behaviour.
+\ \
+:::::::::
+
+::::::::::::
+
+:::::::::::: {.cols data-latex=""}
+
+::::::::: {.col data-latex="{0.2\textwidth}"}
+2020 - 2022
 
 #### Technologies:
 
@@ -139,86 +209,6 @@ Go *([Sciter](https://sciter.com/))*
 
 \qquad An app than can be used to create and export boxes based on product measurements given. The templates arose are then optimally fitted onto boards of given dimensions. This way the whole template can then be cut on a laser cutter or cnc plotter, allowing small businesses to have their own custom box solution.
 \ \
-:::::::::::::::
-
-::::::
-
-:::::::::::: {.cols data-latex=""}
-
-::::::::: {.col data-latex="{0.2\textwidth}"}
-2020, 2021
-
-#### Technologies:
-
-Go *([cobra](https://github.com/spf13/cobra), [bubbletea](https://github.com/charmbracelet/bubbletea))*,
-make
-:::::::::
-
-::::::::: {.col data-latex="{0.05\textwidth}"}
-\ 
-:::::::::
-
-::::::::: {.col data-latex="{0.75\textwidth}"}
-
-:::::: {.cols data-latex=""}
-
-::: {.col data-latex="{0.4\textwidth}"}
-### [\faGithub \ Typer](https://github.com/maaslalani/typer)
-:::
-
-::: {.col data-latex="{0.05\textwidth}"}
-\ 
-:::
-
-::: {.col data-latex="{0.55\textwidth}"}
-> *Typing test in your terminal*
-:::
-
-::::::
-
-\qquad Typer is a terminal application that measures your typing speed.
-
-I've contributed to this open-source typing test implementing functionality such as command line interface, flags, piping, as well as bugfixes and more.
-\ \
-:::::::::
-
-::::::::::::
-
-:::::::::::: {.cols data-latex=""}
-
-::::::::: {.col data-latex="{0.2\textwidth}"}
-2021 - present
-
-#### Technologies:
-
-rMarkdown, Actions
-:::::::::
-
-::::::::: {.col data-latex="{0.05\textwidth}"}
-\ \
-:::::::::
-
-::::::::: {.col data-latex="{0.75\textwidth}"}
-
-:::::: {.cols data-latex=""}
-
-::: {.col data-latex="{0.4\textwidth}"}
-### [\faGithub \ Resume](https://github.com/happyRip/Resume)
-:::
-
-::: {.col data-latex="{0.05\textwidth}"}
-\ 
-:::
-
-::: {.col data-latex="{0.55\textwidth}"}
-> *My personal resume*
-:::
-
-::::::
-
-\qquad The document You are seeing now was created in *rMarkdown* and is converted to a pdf format automatically
-using *pandoc* and *GitHub Actions*.
-\ \
 :::::::::
 
 ::::::::::::
@@ -230,12 +220,12 @@ using *pandoc* and *GitHub Actions*.
 ::: {.col data-latex="{0.47\textwidth}"}
 ## Skills
 
-- Go *(test, [Sciter,](https://sciter.com/) [Cobra](https://github.com/spf13/cobra), [Bubbletea,](https://github.com/charmbracelet/bubbletea) [go-chi](https://github.com/go-chi/chi), [go.uuid](https://github.com/satori/go.uuid))*
+- Go *(test, [Sciter,](https://sciter.com/) [Cobra](https://github.com/spf13/cobra), [Bubbletea,](https://github.com/charmbracelet/bubbletea) [go-chi](https://github.com/go-chi/chi))*
+- Elixir *([Phoenix](https://www.phoenixframework.org/))*
 - Python *(numpy, pandas, matplotlib)*
-- git, GitHub *(Actions)*, gerrit
+- [Jenkins](https://www.jenkins.io/), [Groovy](https://groovy-lang.org/)
 - UNIX, bash, vim, ssh, tmux, make
-- Docker, Kubernetes
-- (r)Markdown, XML, Json, Yaml
+- [Docker](https://www.docker.com/), [GitHub Actions](https://github.com/features/actions)
 - JavaScript *([certificate](https://www.freecodecamp.org/certification/happyrip/javascript-algorithms-and-data-structures))*, C++ *(std)*
 \ \
 :::
@@ -249,7 +239,6 @@ using *pandoc* and *GitHub Actions*.
 
 - Polish – *native*
 - English – *professional*
-- German – *elementary*
 
 ## Interests
 
